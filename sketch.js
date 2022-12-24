@@ -19,7 +19,15 @@ class Entity{
   }
   
   moveLeft(){
-   
+    if(keyCode === LEFT_ARROW) {
+      
+      if(this.x < 0){
+        gameover();
+      }
+      else{
+        this.x -= dPadKiri
+      }
+    }
   }
   
 }
