@@ -189,3 +189,11 @@ class Hero extends Entity{
    calculateLife(){
     
   }
+  
+   saveScore(){
+    if(this.highScore < int(this.score/timeperiod)){
+      this.highScore = int(this.score/timeperiod);
+    }
+    return this.highScore;
+  }
+}
