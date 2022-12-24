@@ -42,4 +42,16 @@ class Entity{
     }
   }
   
+    moveUp(){
+    if(keyCode === UP_ARROW) {
+      
+      if(this.y < 0){
+        gameover();
+      }
+      else{
+        this.y -= dPadAtas;
+      }
+    }
+  }
+  
 }
