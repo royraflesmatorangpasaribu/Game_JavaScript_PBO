@@ -138,6 +138,11 @@ class Monster extends Entity{
       kecepBolaJatuh[i] += akselerasiBolaJatuh[i];
       bolaJatuhY[i]  += kecepBolaJatuh[i];
     }
+    
+    if(timeB > timeperiod){
+      mons.initRandBolaJatuh();
+      timeB = 0;
+    }
   }
   
   moveRandom(){
