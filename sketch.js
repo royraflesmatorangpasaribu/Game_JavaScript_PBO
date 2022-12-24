@@ -134,7 +134,10 @@ class Monster extends Entity{
   }
   
   updateBolaJatuh(){
-    
+    for(var i = 0; i < jmlBolaJatuh; i++){
+      kecepBolaJatuh[i] += akselerasiBolaJatuh[i];
+      bolaJatuhY[i]  += kecepBolaJatuh[i];
+    }
   }
   
   moveRandom(){
