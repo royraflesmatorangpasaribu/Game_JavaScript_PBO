@@ -166,4 +166,8 @@ class Hero extends Entity{
     fill(255);
     ellipse(this.x, this.y, this.width, this.height);
   }
+  
+   ujiBolaJatuh(){
+   
+  }
 }
