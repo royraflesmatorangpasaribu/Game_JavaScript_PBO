@@ -10,6 +10,17 @@ var dPadKanan = true;
 var dPadKiri = true;
 var zapperwidth = 6;
 
+//atribut class monster
+var diameterBolaJatuh = 10;
+var jmlBolaJatuh = 20;
+var bolaJatuhX = [];
+var bolaJatuhY = [];
+var akselerasiBolaJatuh = [];
+var kecepBolaJatuh = [];
+var timeB = 0;
+var timeperiod =  0;
+
+
 
 
 class Entity{
