@@ -282,3 +282,6 @@ function game(){
   lv.setLevel();
 }
 
+function gameover(){
+	
+}
