@@ -156,5 +156,9 @@ function game(){
 
 
 class Hero extends Entity{ 
-  
+  constructor(x, y, width, height){
+    super(x, y, width, height);
+    this.score = 0;
+    this.highScore = 0;
+  }
 }
