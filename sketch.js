@@ -124,7 +124,21 @@ class Entity{
 }
 
 class Monster extends Entity{
+  initRandBolaJatuh(){
+      
+  }
+  
+  updateBolaJatuh(){
     
+  }
+  
+  moveRandom(){
+    
+  }
+  
+  saveScore(){
+    
+  }
 }
 
 
