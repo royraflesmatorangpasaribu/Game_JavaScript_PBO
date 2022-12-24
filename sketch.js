@@ -1,3 +1,10 @@
+//atribut class Map
+const WIDTH = 600;
+const HEIGHT = 450;
+let mode = 1;
+
+
+
 class Entity{
   constructor(x, y, width, height){
     this.x = x;
@@ -57,20 +64,5 @@ class Entity{
 }
 
 class Monster extends Entity{
-  initRandBolaJatuh(){
-      
-  }
-  
-  updateBolaJatuh(){
     
-  }
-  
-  moveRandom(){
-    
-  }
-  
-  saveScore(){
-    
-  }
-  
 }
