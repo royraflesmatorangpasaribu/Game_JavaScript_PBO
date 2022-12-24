@@ -135,3 +135,21 @@ function game(){
   fill(255);
   h.increaseScore();
   text("High Score : "+ h.saveScore(), 20, 50)
+  for(var i = 0; i<jmlBolaJatuh; i++){
+    ellipse(bolaJatuhX[i], bolaJatuhY[i], diameterBolaJatuh,diameterBolaJatuh); 
+  }
+  
+  if(h.ujiBolaJatuh()){ 
+    gameover() 
+  }
+
+  timeB++;
+  
+  mons.updateBolaJatuh();
+  
+  h.moveRight();
+  h.moveLeft();
+  h.moveUp();
+  h.moveDown();
+  lv.setLevel();
+}
