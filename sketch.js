@@ -153,3 +153,8 @@ function game(){
   h.moveDown();
   lv.setLevel();
 }
+
+
+class Hero extends Entity{ 
+  
+}
