@@ -20,7 +20,19 @@ var kecepBolaJatuh = [];
 var timeB = 0;
 var timeperiod =  0;
 
-
+function setup() {
+  
+  var temp00 = 0, temp01 = -1000;
+  while(temp01 < height){
+    temp00 += 0.02;
+    temp01 += temp00;
+    timeperiod++;
+  }
+  
+  m.init();
+  mons.initRandBolaJatuh();
+  
+}
 
 
 class Entity{
