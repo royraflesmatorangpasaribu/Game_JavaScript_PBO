@@ -30,4 +30,8 @@ class Entity{
     }
   }
   
+  moveDown(){
+   
+  }
+  
 }
