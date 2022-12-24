@@ -178,5 +178,14 @@ class Hero extends Entity{
           }  
     }
     return false;
-  }
 }
+  
+  increaseScore(){
+    this.score += 10;
+    fill(255);
+    text("Score: " + int(this.score/timeperiod), 20, 20);
+  }
+  
+   calculateLife(){
+    
+  }
