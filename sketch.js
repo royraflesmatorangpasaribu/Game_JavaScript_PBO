@@ -34,6 +34,23 @@ function setup() {
   
 }
 
+class Map{
+  
+  constructor(WIDTH,HEIGHT){
+    this.WIDTH = WIDTH;
+    this.HEIGHT = HEIGHT;
+  }
+  
+  init(){
+    createCanvas(this.WIDTH, this.HEIGHT);
+  }
+  
+  move(){
+    
+  }
+}
+
+
 
 class Entity{
   constructor(x, y, width, height){
