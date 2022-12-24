@@ -50,6 +50,19 @@ class Map{
   }
 }
 
+class Level{
+  
+   setLevel(){
+    this.akselerasiBolaJatuh = 20;
+  }
+  
+  getCurrentLevel(){
+    return akselerasiBolaJatuh;
+  }
+
+}
+
+
 
 
 class Entity{
