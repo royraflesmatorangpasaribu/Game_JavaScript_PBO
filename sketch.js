@@ -3,6 +3,13 @@ const WIDTH = 600;
 const HEIGHT = 450;
 let mode = 1;
 
+//atribut class Hero
+var dPadAtas = true;
+var dPadBawah = true;
+var dPadKanan = true;
+var dPadKiri = true;
+var zapperwidth = 6;
+
 
 
 class Entity{
