@@ -168,6 +168,15 @@ class Hero extends Entity{
   }
   
    ujiBolaJatuh(){
+   var temp =  0.5*(20+ diameterBolaJatuh)-2;
+   var distance;
    
+    for(var i = 0; i<jmlBolaJatuh; i++){
+        distance = dist(this.x, this.y, bolaJatuhX[i], bolaJatuhY[i]);
+          if(distance <  temp){
+            return true;
+          }  
+    }
+    return false;
   }
 }
