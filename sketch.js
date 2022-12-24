@@ -247,3 +247,10 @@ function mousePressed(){
   	mode = 1
   }
 }
+
+function mulai(){
+    background('lightblue'); 
+    fill('#000000') // 
+    textSize(20) // 
+    text('Mari Mulai !!!', (width/2) - 50, height/2 ); 
+}
