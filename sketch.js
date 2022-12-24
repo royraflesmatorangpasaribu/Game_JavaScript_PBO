@@ -7,7 +7,15 @@ class Entity{
   }
   
   moveRight(){
-    
+    if(keyCode === RIGHT_ARROW) {
+      
+      if(this.x > WIDTH){
+        gameover();
+      }
+      else{
+        this.x += dPadKanan
+      }
+    }
   }
   
 }
