@@ -161,4 +161,9 @@ class Hero extends Entity{
     this.score = 0;
     this.highScore = 0;
   }
+  
+  tampilBola(){
+    fill(255);
+    ellipse(this.x, this.y, this.width, this.height);
+  }
 }
