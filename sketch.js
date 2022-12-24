@@ -239,3 +239,11 @@ function draw() {
   }else if(mode == 3)
     gameover()
 }
+
+function mousePressed(){
+	if(mode == 1){
+  	mode = 2
+  }else if(mode == 3){
+  	mode = 1
+  }
+}
