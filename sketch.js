@@ -283,5 +283,12 @@ function game(){
 }
 
 function gameover(){
-	
+  background('navy')
+  fill(255);
+  h.increaseScore();
+  text("High Score : "+ h.saveScore(), 20, 50)
+  text("Game Over", 0.5*width, 0.5 * height);
+  textSize(12);
+  text("\nBuilt by: \nRoy Rafles Matorang Pasaribu_2117051058 \nFirman Ahmad Bayumi_2117051062 \nSiti Ayuni_2117051068", 347, 377);
+  noLoop();
 }
