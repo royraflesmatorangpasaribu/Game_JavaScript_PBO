@@ -230,3 +230,12 @@ var m = new Map(WIDTH, HEIGHT);
 var h = new Hero(0.5 * WIDTH, HEIGHT - 0.5 * WIDTH + 1, 20, 20);
 var mons = new Monster(0.5 * WIDTH, HEIGHT - 0.5 * WIDTH + 1);
 var lv = new Level();
+
+function draw() {
+  if (mode == 1){
+    mulai()  
+  }else if (mode == 2){
+    game()
+  }else if(mode == 3)
+    gameover()
+}
