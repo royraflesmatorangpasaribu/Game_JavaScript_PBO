@@ -31,7 +31,15 @@ class Entity{
   }
   
   moveDown(){
-   
+    if(keyCode === DOWN_ARROW) {
+      
+      if(this.y > HEIGHT){
+        gameover();
+      }
+      else{
+        this.y += dPadBawah
+      }
+    }
   }
   
 }
