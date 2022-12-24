@@ -126,3 +126,12 @@ class Entity{
 class Monster extends Entity{
     
 }
+
+
+function game(){
+  background(0);
+  
+  h.tampilBola();
+  fill(255);
+  h.increaseScore();
+  text("High Score : "+ h.saveScore(), 20, 50)
