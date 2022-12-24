@@ -224,3 +224,9 @@ class Hero extends Entity{
     return this.highScore;
   }
 }
+
+
+var m = new Map(WIDTH, HEIGHT);
+var h = new Hero(0.5 * WIDTH, HEIGHT - 0.5 * WIDTH + 1, 20, 20);
+var mons = new Monster(0.5 * WIDTH, HEIGHT - 0.5 * WIDTH + 1);
+var lv = new Level();
