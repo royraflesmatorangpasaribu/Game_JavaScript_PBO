@@ -18,4 +18,8 @@ class Entity{
     }
   }
   
+  moveLeft(){
+   
+  }
+  
 }
