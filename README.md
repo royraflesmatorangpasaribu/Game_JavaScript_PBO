@@ -1,10 +1,17 @@
 # Game_JavaScript_PBO
 Aplikasi Permainan Dengan Javascipt Final Project Pemrograman Berorientasi Objek 2022
 
-Nama Kelompok :
+Final Project 2022 (Kelompok)
 
-1. Roy Rafles Matorang Pasaribu 2117051058
+Nama  Anggota : 
+Roy Rafles Matorang Pasaribu_2117051058_(B)
 
-2. Firman Ahmad Bayumi   2117051062
+Firmah Ahmad Bayumi_2117051062_(B)
 
-3. Siti Ayuni  2117051068
+Siti Ayuni_2117051068_(A)
+
+Mata Kuliah : Pemrograman Berorientasi Objek
+
+Dosen Pengampu :
+
+DIDIK KURNIAWAN, M.T.
