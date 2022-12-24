@@ -125,7 +125,12 @@ class Entity{
 
 class Monster extends Entity{
   initRandBolaJatuh(){
-      
+    for(var i = 0; i < jmlBolaJatuh; i++){
+      akselerasiBolaJatuh[i] = random(0.02, 0.03);
+      kecepBolaJatuh[i] = random(0.5);
+      bolaJatuhX[i] = random(zapperwidth+(0.5*20), width);
+      bolaJatuhY[i] = random(-20, -0.5*20);
+    }
   }
   
   updateBolaJatuh(){
